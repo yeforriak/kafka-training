@@ -8,7 +8,7 @@ import org.apache.log4j.Logger;
 
 
 public class HelloProducer {
-	private Logger log = Logger.getLogger(this.getClass());
+	private final Logger log = Logger.getLogger(this.getClass());
 	private KafkaProducer<String, String> kafkaProducer;
 	private String topic;
 	
