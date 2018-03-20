@@ -18,8 +18,8 @@ public class Tests {
 	public void test() {
 		HelloProducer producer = new HelloProducer(topic);
 	
-		IntStream.rangeClosed(0, 5)
-			.forEach( i -> producer.produce(format("Key-%s", i), format("Value-%s", i)));
+		IntStream.rangeClosed(1, 5)
+			.forEach( i -> producer.produce(format("firstKey", i), format("firstkey-value-%s", i)));
 	}
 
 }
