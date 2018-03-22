@@ -9,7 +9,7 @@ import org.junit.Test;
 
 public class FilesParserTest {
 
-	private static final String FILES_PATH = "src/test/resources";
+	private static final String FILES_PATH = "dataset/shakespeare";
 	private final FilesParser filesParser = new FilesParser(FILES_PATH);
 
 	@Test
