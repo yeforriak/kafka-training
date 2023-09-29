@@ -17,7 +17,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 		<!-- Keep Confluent versions as properties to allow easy modification -->
 		<confluent.version>4.0.0</confluent.version>
 		<kafka.version>1.1.1</kafka.version>
-		<avro.version>1.7.7</avro.version>
+		<avro.version>1.11.3</avro.version>
 		<!-- Maven properties for compilation -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
